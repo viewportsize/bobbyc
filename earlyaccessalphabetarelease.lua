@@ -17,7 +17,7 @@ do --// Bypass
         Character:WaitForChild("HumanoidRootPart")
         Character:WaitForChild("Humanoid")
         Character:WaitForChild("Head")
-        task.wait(18)
+        task.wait(36)
         local Success, Error = pcall(function()
             local function Bypass(RecursiveTable, BanIndexValue)
                 setrawmetatable(RecursiveTable, {
